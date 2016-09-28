@@ -1,0 +1,10 @@
+INFO [2016-09-29 00:37:02] [[1]]
+INFO [2016-09-29 00:37:02] dataSet()
+INFO [2016-09-29 00:37:02] 
+INFO [2016-09-29 00:37:02] $filename
+INFO [2016-09-29 00:37:02] NULL
+INFO [2016-09-29 00:37:02] 
+INFO [2016-09-29 00:37:02] $rotation.degree
+INFO [2016-09-29 00:37:02] [1] 180
+INFO [2016-09-29 00:37:02] 
+ERROR [2016-09-29 00:37:02] Unexpected parameter length for 'category'

@@ -1,4 +1,6 @@
 library(shiny)
+library(dplyr)
+library(pROC)
 source("KsValue.R")
 
 Path <- dir("result/")
