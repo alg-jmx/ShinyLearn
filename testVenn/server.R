@@ -15,6 +15,6 @@ function(input,output){
            "BC" = list(B,C))
   })
   output$vennPlot <-renderPlot({
-    venn(dataSet())
+    venn(dataSet(),intersections = T)
   })
 }
