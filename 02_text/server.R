@@ -23,4 +23,8 @@ function(input, output) {
   output$view <- renderTable({
     head(datasetInput(), n = input$obs)
   })
+  
+  output$plot <- renderPlot({
+    plot(datasetInput())
+  })
 }

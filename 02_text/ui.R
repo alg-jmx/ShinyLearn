@@ -13,15 +13,15 @@ fluidPage(
       selectInput("dataset", "Choose a dataset:", 
                   choices = c("rock", "pressure", "cars")),
       
-      numericInput("obs", "Number of observations to view:", 10)
+      numericInput("obs", "Number of observations to view:", 10),
+      plotOutput("plot")
     ),
     
     # Show a summary of the dataset and an HTML table with the 
 	 # requested number of observations
     mainPanel(
       verbatimTextOutput("summary"),
-      tableOutput("view"),
-      plotOutput("plot")
+      tableOutput("view")
     )
   )
 )
